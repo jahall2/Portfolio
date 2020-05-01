@@ -1,0 +1,488 @@
+@charset "UTF-8";
+/* CSS Document */
+
+* {
+	padding: 0;
+	margin: 0;
+	height: 100%;
+}
+.wrapper {
+	max-width: 2560px;
+	height: 5000px;
+	background-color:#165864;
+}
+
+
+
+.portfolio{
+   position:fixed;
+	z-index: 200;
+   padding: 0.25em 0;
+   text-decoration: none;
+	height: 40px;
+   color:#2CA2C6; 
+	left: 1750px;
+	top: 80px;
+	font-family: arial;
+	font-size: 1.5em;
+	font-weight: 100;
+	background-color: none;
+}
+
+.portfolio:before{
+   position:absolute;
+   content: '';
+   width: 100%;
+   height: 4px;
+   top:75%;
+   left: 0px;
+   border-radius: 3px;
+   background:#2CA2C6; 
+   transition: .2s;
+}
+
+.portfolio:hover:before {
+    top: -webkit-calc(72% - 3px);
+	
+    top: calc(72% - 3px);
+}
+
+
+.about{
+   position:fixed;
+	z-index: 20;
+   padding: 0.25em 0;
+   text-decoration: none;
+	height: 40px;
+   color:#2CA2C6; 
+	left: 1940px;
+	top: 80px;
+	font-family: arial;
+	font-size: 1.5em;
+	font-weight: 100;
+	background-color: none;
+}
+
+.about:before{
+   position:absolute;
+   content: '';
+   width: 100%;
+   height: 4px;
+   top:75%;
+   left: 0px;
+   border-radius: 3px;
+   background:#2CA2C6; 
+   transition: .2s;
+}
+
+.about:hover:before {
+    top: -webkit-calc(72% - 3px);
+	
+    top: calc(72% - 3px);
+}
+
+
+.back_container {
+	position:absolute;
+	filter: drop-shadow(0px 0px 8px black);
+	margin-top: 800px;
+	z-index: 2;
+	width: 100%;
+	height: 4000px;
+	background-color: white;
+}
+
+.copy-container{
+	position:absolute;
+	filter: drop-shadow( 3px 3px 6px #090A07);
+	margin-top: 525px;
+	margin-left: 20%;
+	z-index: 10;
+	width: 60%;
+	height: 775px;
+	background-color: white;
+}
+
+.header {
+	position: absolute;
+	z-index: 3;
+	left: 150px;
+	top: 100px;
+    font-family: arial;
+    color: #152722;
+    font-size: 2.8em;
+    font-style: normal;
+    font-weight: bold;
+}
+
+.location {
+	position: absolute;
+	z-index: 3;
+	left: 1050px;
+	top: 110px;
+	font-family: arial;
+	font-weight: bold;
+	color: #152722;
+	font-size: 1.2em;
+	
+}
+
+.muncie {
+	position: absolute;
+	z-index: 3;
+	left: 1160px;
+	top: 110px;
+	font-family: arial;
+	color: #152722;
+	font-size: 1.1em;
+	
+}
+
+
+.line {
+	position: absolute;
+	z-index: 3;
+	width: 73%;
+	height: 0px;
+	color: black;
+	top: 450px;
+	left: 155px;
+}
+
+.overview {
+	position: absolute;
+	z-index: 3;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	font-weight: bold;
+	font-size: 1.2em;
+	top: 550px;
+	left: 150px;
+	width: 25%;
+	height: 100px;
+	color: #2CA2C6;
+}
+
+  p {
+	position: absolute;
+	z-index: 3;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	font-size: .9em;
+	font-weight:normal;
+	width: 30%;
+	height: 75px;
+	top: 575px;
+	left: 150px;
+	  color: #152722;
+}
+
+.results {
+	position: absolute;
+	z-index: 3;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	font-weight: bold;
+	font-size: 1.2em;
+	top: 550px;
+	left: 900px;
+	width: 25%;
+	height: 100px;
+	color: #2CA2C6;
+}
+
+.results-copy {
+	position: absolute;
+	z-index: 3;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	font-size: .9em;
+	font-weight:normal;
+	width: 30%;
+	height: 20px;
+	top: 575px;
+	left: 900px;
+	color: #152722;
+}
+.logo {
+	position: fixed;
+	top: 100px;
+	left: 900px;
+	height: 350px;
+}
+
+.mala-web3 {
+		position: absolute;
+		z-index: 10;
+		height: 1060px;
+		margin-left: 550px;
+		top: 1400px;
+	}
+
+.mala-web2 {
+		position: absolute;
+		z-index: 10;
+		height: 1060px;
+		margin-left: 1400px;
+		top: 1400px;
+	}
+
+.mala-web1 {
+		position: absolute;
+		z-index: 10;
+		height: 450px;
+		margin-left:900px;
+		top: 2570px;
+	}
+	
+	
+
+
+
+/*Mobile Device*/
+@media (max-width: 380px) {
+	.robinwood {
+		position: fixed;
+		left: 0px;
+	}
+}
+
+/*Small Tablet Device*/
+@media (min-width: 380px) and (max-width: 950px) {
+	.wrapper {
+		width: 100%;
+	}
+	.nav{
+		width: 100%;
+	}
+	#portfolio_button{
+		position: fixed;
+		left: 660px;
+		top: 40px;
+		font-size: 1.3em;
+	}
+	#about_button{
+		position: fixed;
+		left: 820px;
+		top: 40px;
+		font-size: 1.3em;
+	}
+	.logo {
+		 position: fixed;
+		width: 100%;
+		height: 525px;
+		left: 35px;
+	}
+	.back_container {
+		position: absolute;
+		top: -250px;
+		height: 500px;
+	}
+	
+	.copy-container {
+		position: absolute;
+		top: -20px;
+		width: 82%;
+		height: 2000px;
+		left: -100px;
+	}
+	.header {
+		position: absolute;
+		left: 70px;
+	}
+	
+	.button{
+		position: absolute;
+		width: 155px;
+		left: 70px;
+		top: 200px;
+	}
+	.button-165 {
+		
+	}
+	.location {
+		position: absolute;
+		left: 460px;
+		top: 200px;
+	}
+	.muncie {
+		position: absolute;
+		left: 570px;
+		top: 201px;
+	}
+	
+	.line {
+		position: absolute;
+		top: 300px;
+		left: 70px;
+		width: 625px;
+	}
+	
+	.overview {
+		position: absolute;
+		top: 350px;
+		left: 70px;
+	}
+	.overview-copy {
+		position: absolute;
+		font-size: .7em;
+		width: 310px;
+		top: 375px;
+		left: 70px;
+	}
+	.results {
+		position: absolute;
+		top: 350px;
+		left: 425px;
+	}
+	.results-copy {
+		position: absolute;
+		font-size: .7em;
+		width: 310px;
+		top: 375px;
+		left: 425px;
+	}
+	
+	.color-font {
+		position: absolute;
+		left: 135px;
+		top: 1100px;
+		width: 74%;
+		height: 415px;
+	}
+	.components {
+		position: absolute;
+		left: 135px;
+		top: 1455px;
+		width: 74%;
+		height: 400px;
+	}
+
+}
+
+
+/*Large Tablet Device*/
+@media (min-width: 951px) and (max-width: 1536px) {
+	
+	#wrapper {
+	position: absolute;
+	width: 100%;
+	background: black;
+}
+	
+	#nav{
+		height: 50px;
+		position: fixed;
+		width: 100%;
+	}
+	.back_container {
+		position: absolute;
+		height: 1300px;
+	}
+	
+	#portfolio_button {
+		position: fixed;
+		left: 1100px;
+	}
+	
+	#about_button {
+		position: fixed;
+		left: 1350px;
+	}
+	
+	.logo {
+		position: fixed;
+		width: 100%;
+		height:860px;
+		left: 40px;
+	}
+	
+	.header {
+		position: absolute;
+		font-size: 2em;
+		left: 100px;
+		top: 50px;
+	}
+	
+	.button {
+		position: absolute;
+		top: 120px;
+		left: 100px;
+		width: 130px;
+	}
+	.button-165{
+		position: absolute;
+		width: 130px;
+		left: 23px;
+		font-size: .9em;
+		
+	}
+	
+	.location {
+		position: absolute;
+		left: 550px;
+		top: 120px;
+	}
+	
+	.muncie {
+		position: absolute;
+		left: 660px;
+		top: 120px;
+	}
+	
+	.line {
+		position: absolute;
+		top: 220px;
+		left: 100px;
+		width: 720px;
+	}
+	
+	.overview {
+		position: absolute;
+		top: 300px;
+		left: 100px;
+	}
+	
+	.overview-copy{
+		position: absolute;
+		top: 340px;
+		left: 100px;
+		width: 345px;
+		font-size: .75em;
+	}
+	
+	.results {
+		position: absolute;
+		top: 300px;
+		left: 500px;
+	}
+	
+	.results-copy {
+		position: absolute;
+		top: 340px;
+		left: 500px;
+		font-size: .75em;
+		width: 345px;
+	}
+	
+	.copy-container {
+		position: absolute;
+		height: 600px;
+	}
+	
+	.first {
+		position: absolute;
+		height: 200px;
+		top: 400px;
+	}
+	
+	
+	
+	
+	
+	}
+
+/*Desktop Device*/
+@media (min-width: 950px) and (max-width:2559px) {}
+
+
+
+
+/*Desktop Large Device*/
+@media (min-width: 2560px) {}
